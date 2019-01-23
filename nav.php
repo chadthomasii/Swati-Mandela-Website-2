@@ -1,4 +1,8 @@
 <nav>
+
+    <div class="logo">
+        <h1><a href="/">Swati</a></h1>
+    </div>
     <ul>
         <li><a href="/">Home</a></li>
         <li><a href="/biography">Biography</a></li>

@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,400,900');
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
 
+:root {
+    --main-color: #2274A5; 
+  }
+  
 
 *
 {
@@ -26,7 +31,7 @@
 
     height: 80px;
     width: 300px;
-    background-color: #9A2828;
+    background-color: var(--main-color);
     color: #fff;
     -webkit-clip-path: polygon(15% 0%, 100% 0%, 85% 100%, 0% 100%);
     clip-path: polygon(15% 0%, 100% 0%, 85% 100%, 0% 100%);
@@ -42,19 +47,39 @@ nav
 {
     position: absolute;
     top: 0;
-    background-color: #424242;
+    background-color: #fff;
     z-index: 7;
     width: 100%;
     height: 80px;
+    box-shadow: 0 2px 8px -2px rgba(0,0,0,.2);
+
+}
+.logo
+{
+    float: left;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
 }
 
+.logo h1 a
+{
+    font-family: 'Pacifico';
+    font-size: 2.3em;
+    color: var(--main-color);
+    text-decoration: none;
+}
 nav ul
 {
+    float: right;
     height: 100%;
     color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-right: 50px;
 }
 
 nav li
@@ -68,8 +93,8 @@ nav li
 nav li a
 {
     text-decoration: none;
-    color: #fff;
-    font-size: 2.5em;
+    color: var(--main-color);
+    font-size: 1.2em;
     cursor: pointer;
     transition: border 0.2s ease; 
 
@@ -77,17 +102,18 @@ nav li a
 
 nav li a:hover
 {
-    border-top: 3px solid #9A2828;
+    border-top: 3px solid var(--main-color);
 }
 
 .nav-sub-menu
 {
-    background-color: #424242;
+    background-color: #fff;
     position: absolute;
     flex-direction: column;
-    height: 200px;
+    height: 150px;
     border-radius: 0px 0px 4px 4px;
     display: none;
+    width: 150px;
 }
 
 li:hover .nav-sub-menu
@@ -121,74 +147,19 @@ li:hover .nav-sub-menu
 
 .header
 {
-    position: absolute;
-    height: 100%;
+    height: 100vh;
     width: 100vw;
-    background-size: cover;
-    background-position: top;   
-    mix-blend-mode: multiply;
-    background-image: linear-gradient(-180deg, rgba(154,40,40,0.95) 0%, rgba(177,59,59,0.83) 47%, rgba(177,60,60,0.80) 81%, rgba(154,40,40,0.64) 100%);
-    z-index: 2;
-    display: flex;
-    flex-direction: column;
-    justify-content:  flex-end;
+    background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(../img/Swati-2.jpg);
+    background-size:cover;
 }
 
-.swati-header
-{
-    position: absolute;
-    z-index: 1;
-    bottom: 0;
-    right: 0;
-    width: 550px;
-    height: 700px;
-    filter: drop-shadow(6px 0px 4px rgba(0,0,0,0.50)); 
-    transition-timing-function: ease-in-out;
-    animation-fill-mode: forwards;
-    -webkit-animation-fill-mode: forwards;
-    
-}
-
-.social-container, .header-text, .header-subtext
-{
-    margin-left: 70px;
-}
-
-.social-container
-{
-    animation-delay: 0.9s;
-}
-
-.social-container li
-{ 
-    display: inline-block;
-
-}
-
-.social-container li a
-{ 
-    text-decoration: none;
-    color: #fff;
-    font-size: 2.5em;
-
-}
 
 .text-content
 {
     position: absolute;
-    z-index: 3;
     bottom: 0;
-}
-
-.header-text
-{
-    font-weight: 900;
-    font-size: 160px;
-    color: #fff;
-    letter-spacing: 37px;
-    text-shadow: 0 2px 4px rgba(0,0,0,0.50);
-    padding: 70px 0px;
-    text-transform: uppercase;
+    right: 0;
+    margin-bottom: 120px;    
 }
 
 .header-subtext
@@ -196,9 +167,14 @@ li:hover .nav-sub-menu
     font-weight: 400;
     font-size: 40px;
     color: #FFFFFF;
-    padding-bottom: 80px;
     animation-delay: 0.9s;
+}
 
+
+.landing-bio
+{
+    height: 500px;
+    width: 100%;
 }
 
 /*=================================================

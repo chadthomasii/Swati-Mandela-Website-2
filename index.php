@@ -3,31 +3,31 @@
     
 
 
-        <header class="header"></header>
+        <header class="header">
+        
+            <div class="text-content ">
 
-        <div class="text-content ">
-            <ul class="social-container animated fadeIn">
-                <li><a href="#" target="_blank">Instagram |</a></li>
-                <li><a href="#" target="_blank">Facebook |</a></li>
-                <li><a href="#" target="_blank">Linkedin |</a></li>
-                <li><a href="#" target="_blank">Twitter</a></li>
-            </ul>
+                <h1 class="header-subtext animated fadeIn">
+                    “Be ‘relentless’ in your quest
+                    <br> for freedom, equality.”
+                    <br>
+                    <br>
+                    -Swati Dlamini Mandela
+                    
+                </h1>
+            </div>
 
-            <h1 class="header-text animated fadeInRight ">Mandela</h1>
+        </header>
 
-            <h2 class="header-subtext animated fadeIn">
-                “Be ‘relentless’ in your quest
-                <br> for freedom, equality.”
-                <br>
-                <br>
-                -Swati Mandela
-                
-            </h2>
+        <div class="landing-bio">
+
         </div>
+
         
 
-        <img class="swati-header animated fadeInLeft"src="./img/Swati.png"/>
-
+        
+        
+ 
 
     <?php include_once("scripts.php"); ?>
 

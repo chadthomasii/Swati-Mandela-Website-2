@@ -153,6 +153,7 @@ li:hover .nav-sub-menu
     width: 100vw;
     background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(../img/Swati-2.jpg);
     background-size:cover;
+    background-position: left top;
 }
 
 
@@ -240,16 +241,14 @@ li:hover .nav-sub-menu
 {
     text-align: center;
     padding: 10px 0px;
-    margin-top: 120px;
-}
-
-.img-container img
-{
+    margin-top: 80px;
+    background: url(../img/swati-speaks.png);
+    width: 100%;
     height: 500px;
-    width: 700px;
-    border-radius: 20px;
+    background-size: cover;
+    background-position: 80% 40%;
+    
 }
-
 /* Biography */
 
 

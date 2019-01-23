@@ -2,7 +2,6 @@
 
 
         <div class="img-container">
-            <img src="img/swati-speaks.png">
         </div>
 
         <div class="accomplishments"> 

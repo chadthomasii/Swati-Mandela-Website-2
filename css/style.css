@@ -115,6 +115,7 @@ nav li a:hover
     border-radius: 0px 0px 4px 4px;
     display: none;
     width: 150px;
+    box-shadow: 0 2px 8px -2px rgba(0,0,0,.2);
 }
 
 li:hover .nav-sub-menu
@@ -203,6 +204,8 @@ li:hover .nav-sub-menu
 {
     width: 60%;
     margin: 0 auto;
+    background-color: var(--dark-text);
+    border-color: var(--dark-text);
 }
 
 .landing-bio-container iframe
@@ -214,7 +217,7 @@ li:hover .nav-sub-menu
 
 .landing-bio-left p
 {
-    font-size: 25px;
+    font-size: 26px;
     margin: 0px 20px;
     padding-top: 15px;
     text-indent: 30px;
@@ -228,20 +231,27 @@ li:hover .nav-sub-menu
 
 
 /*=================================================
-                    Biography
+                    About
 ==================================================*/
+
+/* Image */
 
 .img-container
 {
     text-align: center;
     padding: 10px 0px;
+    margin-top: 120px;
 }
 
 .img-container img
 {
     height: 500px;
     width: 700px;
+    border-radius: 20px;
 }
+
+/* Biography */
+
 
 .biography-text
 {
@@ -254,10 +264,6 @@ li:hover .nav-sub-menu
     font-size: 30px;
     text-indent: 50px;
 }
-
-/*=================================================
-                    Speaking
-==================================================*/
 
 /* Accomplishments */
 .accomplishments ul
@@ -293,7 +299,13 @@ li:hover .nav-sub-menu
     content: "";
     display: table;
     clear: both;
-  }
+}
+
+/*=================================================
+                    Speaking
+==================================================*/
+
+
 
 
 /* Testimonials */

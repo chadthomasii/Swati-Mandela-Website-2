@@ -7,7 +7,7 @@
         
             <div class="text-content ">
 
-                <h1 class="header-subtext animated fadeIn">
+                <h1 class="header-subtext animated fadeInLeft">
                     “Be ‘relentless’ in your quest
                     <br> for freedom, equality.”
                     <br>
@@ -35,7 +35,7 @@
 
                 <p>
                 Rather, Swati’s is the story of a high-achieving young South African 
-                woman who... <span><a href="/biography">Read Full Bio</a></span>
+                woman who... <span><a href="/about">Read Full Bio</a></span>
                 </p>
             </div>
 

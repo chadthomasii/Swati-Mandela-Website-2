@@ -1,0 +1,858 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,900');
+
+
+*
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
+}
+
+/*=================================================
+                    General Styles
+==================================================*/
+
+.header-shape-container
+{
+    width: 100%;
+    padding: 10px 0px;
+    margin-top: 120px;
+    animation-delay: 0.3s;
+}
+.header-shape
+{
+    margin: 0 auto;
+
+    height: 80px;
+    width: 300px;
+    background-color: #9A2828;
+    color: #fff;
+    -webkit-clip-path: polygon(15% 0%, 100% 0%, 85% 100%, 0% 100%);
+    clip-path: polygon(15% 0%, 100% 0%, 85% 100%, 0% 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*=================================================
+                    Navigation
+==================================================*/
+nav
+{
+    position: absolute;
+    top: 0;
+    background-color: #424242;
+    z-index: 7;
+    width: 100%;
+    height: 80px;
+}
+
+nav ul
+{
+    height: 100%;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav li
+{
+    display: inline;
+    padding: 0px 40px;
+    text-align: center;
+   
+}
+
+nav li a
+{
+    text-decoration: none;
+    color: #fff;
+    font-size: 2.5em;
+    cursor: pointer;
+    transition: border 0.2s ease; 
+
+}
+
+nav li a:hover
+{
+    border-top: 3px solid #9A2828;
+}
+
+.nav-sub-menu
+{
+    background-color: #424242;
+    position: absolute;
+    flex-direction: column;
+    height: 200px;
+    border-radius: 0px 0px 4px 4px;
+    display: none;
+}
+
+li:hover .nav-sub-menu
+{
+    display: flex;
+}
+
+.nav-container-active
+{
+    display: flex;
+}
+
+.nav-sub-menu li  
+{
+    text-align: center;
+    width: 250px; 
+    padding: 20px 20px;
+}
+
+
+.down 
+{
+    font-size: 10px;
+    display: inline;
+}
+
+
+/*=================================================
+                    Landing
+==================================================*/
+
+.header
+{
+    position: absolute;
+    height: 100%;
+    width: 100vw;
+    background-size: cover;
+    background-position: top;   
+    mix-blend-mode: multiply;
+    background-image: linear-gradient(-180deg, rgba(154,40,40,0.95) 0%, rgba(177,59,59,0.83) 47%, rgba(177,60,60,0.80) 81%, rgba(154,40,40,0.64) 100%);
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content:  flex-end;
+}
+
+.swati-header
+{
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    right: 0;
+    width: 550px;
+    height: 700px;
+    filter: drop-shadow(6px 0px 4px rgba(0,0,0,0.50)); 
+    transition-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+    
+}
+
+.social-container, .header-text, .header-subtext
+{
+    margin-left: 70px;
+}
+
+.social-container
+{
+    animation-delay: 0.9s;
+}
+
+.social-container li
+{ 
+    display: inline-block;
+
+}
+
+.social-container li a
+{ 
+    text-decoration: none;
+    color: #fff;
+    font-size: 2.5em;
+
+}
+
+.text-content
+{
+    position: absolute;
+    z-index: 3;
+    bottom: 0;
+}
+
+.header-text
+{
+    font-weight: 900;
+    font-size: 160px;
+    color: #fff;
+    letter-spacing: 37px;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.50);
+    padding: 70px 0px;
+    text-transform: uppercase;
+}
+
+.header-subtext
+{
+    font-weight: 400;
+    font-size: 40px;
+    color: #FFFFFF;
+    padding-bottom: 80px;
+    animation-delay: 0.9s;
+
+}
+
+/*=================================================
+                    Biography
+==================================================*/
+
+.img-container
+{
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.img-container img
+{
+    height: 500px;
+    width: 700px;
+}
+
+.biography-text
+{
+    padding: 50px 0px;
+}
+
+.biography-text p
+{
+    margin: 0px 200px;
+    font-size: 30px;
+    text-indent: 50px;
+}
+
+/*=================================================
+                    Speaking
+==================================================*/
+
+/* Accomplishments */
+.accomplishments ul
+{
+    list-style-type: none;
+}
+
+.accomplishments li
+{
+    font-size: 30px;
+    margin: 60px 0px;
+    padding: 0px 90px;
+
+}
+
+
+.accomplishments-left
+{
+    float: left;
+    height: 100%;
+    width: 50%;
+}
+
+.accomplishments-right
+{
+    float: right;
+    height: 100%;
+    width: 50%;
+}
+
+.accomplishments:after 
+{
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+/* Testimonials */
+
+.testimonials
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    background-color: #9A2828;
+    padding: 90px 0px;
+}
+
+.testimonial-section
+{
+    background: #FFFFFF;
+    border: 1px solid #979797;
+    box-shadow: 0 14px 11px 2px rgba(0,0,0,0.25);
+    width: 900px;
+    height: 300px;
+    margin: 40px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonial-section p
+{
+    font-size: 1.8em;
+    margin: 0px 70px;
+}
+
+.testimonial-section span
+{
+    font-weight: 900;
+    color: #9A2828;
+}
+
+/*=================================================
+                    Contact
+==================================================*/
+
+.form-container
+{
+    width: 100%;
+    height: 700px;
+    background-color: #9A2828;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.form
+{
+    width: 80%;
+    height: 480px;
+    box-shadow: 0 14px 11px 2px rgba(0,0,0,0.25);
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.form-block
+{
+    text-align: center;
+}
+
+input[type=text], input[type=email] 
+{
+    height: 50px;
+    width: 300px;
+    margin: 5px 2px;
+    box-shadow: none;
+    border:none;
+    background-image:none;
+    background-color:#D8D8D8;
+    padding-left: 5px;
+    font-weight: 900;
+    
+
+
+}
+
+.message
+{
+    height: 100px;
+    width: 90%;
+    color: #424242;
+    background-color:#D8D8D8;
+    box-shadow: none;
+    border:none;
+    background-image:none;
+    padding-left: 5px;
+    font-weight: 900;
+    display: block;
+    margin: 10px auto;
+    padding-left: 5px;
+    padding-top: 10px;
+    resize: none;
+    
+
+}
+
+button
+{
+    display: block;
+    margin: 10px auto;
+    padding: 20px 80px;
+    background-color: #9A2828;
+    color: #fff;
+    border-radius: 60px;
+    font-weight: 900;
+    font-size: 1em;
+    cursor: pointer;
+    margin-top: 20px;
+    appearance: none;
+    -webkit-appearance: none;
+}
+
+.message::placeholder
+{
+    color: #424242;
+    font-weight: 900;
+    padding-left: 5px;
+}
+   
+
+input[type=text]::placeholder, input[type=email]::placeholder
+{
+    color: #424242;
+    font-weight: 900;
+    padding-left: 5px;
+}
+
+.message-error
+{
+    background-color: #d9534f;
+}
+
+.message-success
+{
+    background-color: #5cb85c;
+}
+
+.send-message
+{
+    text-align: center;
+    width: 90%;
+    height: 80px;
+    margin: 0 auto;
+    color: #424242;
+    margin-top: 20px;
+    color: #fff;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*=================================================
+                    Footer
+==================================================*/
+
+footer
+{
+    width: 100%;
+    height: 300px;
+    background-color: #424242;
+    animation-delay: 0.5s;
+}
+
+.footer-left
+{
+    float: left;
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-right
+{
+    float: right;
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+}
+
+.footer-left img
+{
+    color: #fff;
+    height: 200px;
+    width: 300px;
+}
+
+.footer-right p
+{
+    padding: 0px 90px;
+}
+
+/*=================================================
+                    Media Queries
+==================================================*/
+
+
+@media only screen and (max-width: 1200px) 
+{
+    /* Navigation */
+
+    nav li
+    {
+        padding: 0px 30px;
+    }
+
+    /* Landing */
+    .header-text
+    {
+        font-size: 115px;
+        padding: 100px 0px;
+    }
+
+
+
+
+}
+
+@media only screen and (max-width: 900px) 
+{
+
+    /* Navigation */
+
+    nav li
+    {
+        padding: 0px 10px;
+    }
+
+     /* Landing */
+    .header-text
+    {
+        font-size: 100px;
+        letter-spacing: 20px;
+        padding: 85px 0px;
+
+    }
+    
+    .social-container li a
+    {
+
+        font-size: 2em;
+    }
+
+    /* Biography */
+
+    .img-container img
+    {
+        width: 600px;
+        height: 400px;
+    }
+    .biography-text p
+    {
+        margin: 0px 60px;
+        font-size: 22px;
+    }
+
+    /* Speaking */
+    .accomplishments li
+    {
+        padding: 0px 40px;
+    }
+
+    .testimonial-section
+    {
+        width: 650px;
+    }
+
+    .testimonial-section p
+    {
+        font-size: 1.6em;
+    }
+
+}
+
+@media only screen and (max-width: 700px) 
+{   
+    /* Navigation */
+
+    nav li
+    {
+        padding: 0px 8px;
+    }
+
+    nav li a
+    {
+        font-size: 1.7em;
+    }
+
+    /* Landing */
+
+    .swati-header
+    {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 499px;
+
+    }
+
+    .social-container, .header-text, .header-subtext
+    {
+        margin-left: 0px;
+        text-align: center;
+    }
+
+    .text-content
+    {
+        width: 100%;
+        max-width: 1000px;
+    }
+
+    .header-text
+    {
+        font-size: 70px;
+    }
+
+    .header-subtext
+    {
+        font-size: 1.5em;
+
+    }
+
+    .social-container li a
+    {
+
+        font-size: 1.5em;
+    }
+
+    /* Biography */
+
+    .img-container img
+    {
+        width: 400px;
+        height: 250px;
+    }
+    .biography-text p
+    {
+        margin: 0px 40px;
+        font-size: 22px;
+        text-indent: 30px;
+    }
+
+      /* Speaking */
+      .accomplishments li
+      {
+          padding: 0px 40px;
+      }
+  
+      .testimonial-section
+      {
+          width: 490px;
+      }
+  
+      .testimonial-section p
+      {
+          font-size: 1.3em;
+      }
+
+    /* Footer */
+
+    .footer-right p
+    {
+        padding: 0px 20px;
+    }
+
+    .footer-left img
+    {
+        height: 100px;
+        width: 180px;
+    }
+
+
+}
+
+@media only screen and (max-width: 500px) 
+{
+    /* Navigation */
+
+    nav li
+    {
+        padding: 0px 8px;
+    }
+
+    nav li a
+    {
+        font-size: 1.2em;
+    }
+
+    .nav-sub-menu
+    {
+        width: 150px;
+    }
+
+    .nav-sub-menu li
+    {
+        width: 150px;
+    }
+
+    /* Landing */
+
+    .swati-header
+    {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 360px;
+        height: 590px;
+
+    }
+    .header-text
+    {
+        font-size: 60px;
+        letter-spacing: 10px;
+    }
+
+    .social-container li a
+    {
+        font-size: 1.2em;
+    }
+
+    .header-subtext
+    {
+        font-size: 1.3em;
+    }
+
+    /* Biography */
+
+    .img-container img
+    {
+        width: 320px;
+    }
+
+    /* Speaking */
+    .accomplishments li
+    {
+        padding: 0px 15px;
+        font-size: 15px;
+        margin: 35px 0px;
+    }
+
+    .testimonial-section
+    {
+        width: 320px;
+        height: 250px;
+    }
+
+    .testimonial-section p
+    {
+        font-size: 1em;
+        margin: 0px 35px;
+    }
+
+    /* Contact */
+
+    .form-block input
+    {
+        width: 90%;
+    }
+
+    /* Footer */
+
+    footer
+    {
+        height: 100%;
+        padding: 20px 0px;
+    }
+    .footer-left
+    {
+        float: none;
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer-right
+    {
+        float: none;
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+}
+
+@media only screen and (max-width: 360px) 
+{
+    /* Navigation */
+
+    nav li
+    {
+        padding: 0px 4px;
+    }
+
+    nav li a
+    {
+        font-size: 1em;
+    }
+    
+    /* Landing */
+
+    .header-text
+    {
+        letter-spacing: 5px;
+        font-size: 55px;
+    }
+    .swati-header
+    {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 320px;
+        height: 610px;
+
+    }
+}
+
+/*DEVICE HEIGHT*/
+@media only screen and (max-height: 780px) 
+{
+    .swati-header
+    {
+        height: 650px;
+    }
+    
+}
+
+@media only screen and (max-height: 700px) 
+{
+    .swati-header
+    {
+        height: 550px;
+    }
+    
+    .header-text
+    {
+        padding: 60px 0px;
+    }
+}
+
+@media only screen and (max-height: 630px) 
+{
+    .swati-header
+    {
+        height: 500px;
+    }
+
+    .header-text
+    {
+        padding: 30px 0px;
+    }
+    
+}
+
+/* Special Devices Lengths */
+
+@media only screen and (max-height: 700px) and (min-width: 1200px)
+{
+    .header-text
+    {
+        padding: 25px 0px;
+    }
+}

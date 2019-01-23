@@ -242,12 +242,12 @@ li:hover .nav-sub-menu
     text-align: center;
     padding: 10px 0px;
     margin-top: 80px;
-    background: url(../img/swati-speaks.png);
+    background: url(../img/swati-center.jpg);
     width: 100%;
     height: 500px;
     background-size: cover;
-    background-position: 80% 40%;
-    
+    background-position: 80% 20%;
+    background-repeat: no-repeat;
 }
 /* Biography */
 
@@ -307,43 +307,47 @@ li:hover .nav-sub-menu
 
 
 
-/* Testimonials */
+/* Reviews */
 
 .testimonials
 {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    flex-direction: column;
+    background-color: var(--main-color);
     height: 100%;
-    background-color: #9A2828;
     padding: 90px 0px;
 }
 
 .testimonial-section
 {
-    background: #FFFFFF;
-    border: 1px solid #979797;
-    box-shadow: 0 14px 11px 2px rgba(0,0,0,0.25);
-    width: 900px;
-    height: 300px;
-    margin: 40px 0px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width: 200px;
+    height: 500px;
+    
+}
+
+.testimonial-section img
+{
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    text-align: center;
 }
 
 .testimonial-section p
 {
-    font-size: 1.8em;
-    margin: 0px 70px;
+    text-align: center;
+    color: #fff;
 }
 
 .testimonial-section span
 {
-    font-weight: 900;
-    color: #9A2828;
+    font-weight: bold;
 }
+
+
 
 /*=================================================
                     Contact
@@ -479,7 +483,7 @@ input[type=text]::placeholder, input[type=email]::placeholder
 footer
 {
     width: 100%;
-    height: 300px;
+    height: 150px;
     background-color: #424242;
     animation-delay: 0.5s;
 }
@@ -508,8 +512,9 @@ footer
 .footer-left img
 {
     color: #fff;
-    height: 150px;
+    height: 100px;
     width: 200px;
+    cursor: pointer;
 }
 
 .footer-right p

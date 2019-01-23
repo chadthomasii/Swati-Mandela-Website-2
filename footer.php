@@ -1,7 +1,9 @@
 <footer>
 
     <div class="footer-left">
-        <img src="img/ground-game-logo.png"/>
+        <a href="https://www.groundgame.international/" target="_blank">
+            <img src="img/ground-game-logo.png" />
+        </a>
     </div>
 
     <div class="footer-right">

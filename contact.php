@@ -2,27 +2,19 @@
 
 <?php include_once("head.php");?>
 
-    <div class="header-shape-container">
-        <div class="header-shape">
-            <h1>Contact</h1>
-        </div>
-    </div>
+    
 
     <div class="form-container">
-        <div class="form">
+        <div class="form animated fadeInDown">
             <form action="contact.php" method="post">
 
-                <div class="form-block">
-                    <input type="text" name="name" placeholder= "Name *" required>
-                    <input type="email" name="email" placeholder= "Email *" required>
-                </div>
+                <input type="text" name="name" placeholder= "Name *" required>
+                <input type="email" name="email" placeholder= "Email *" required>
+                <input type="text" name="phonenumber" placeholder= "Phone">
+                <input type="text" name="company" placeholder= "Company">
+                <input type="text" name="question" placeholder= "What is thirteen minus six? *">
 
-                <div class="form-block">
-                    <input type="text" name="phonenumber" placeholder= "Phone">
-                    <input type="text" name="company" placeholder= "Company">
-                </div>
-
-                <textarea placeholder="Inquiry" class="message" name="message"></textarea>
+                <textarea placeholder="Message" class="message" name="message"></textarea>
 
                 <button class="submit" type="submit" name="submit">Submit</button>
 

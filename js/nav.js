@@ -2,7 +2,7 @@
 // NAVIGATION
 
 var navToggle = document.querySelector(".nav-toggle");
-var navContainer = document.querySelector(".nav-sub-menu");
+var navContainer = document.querySelector(".nav-menu");
 var open = false;
 
 

@@ -3,7 +3,10 @@
     <div class="logo">
         <h1><a href="/">Swati</a></h1>
     </div>
-    <ul>
+    
+    <i class="fas fa-bars nav-toggle"></i>
+
+    <ul class="nav-menu">
         <li><a href="/">Home</a></li>
         <li><a href="/about">About</a></li>
         <li class="nav-toggle"><a>Speaking</a>

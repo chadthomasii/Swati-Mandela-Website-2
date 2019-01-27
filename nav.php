@@ -7,13 +7,47 @@ nav
 
 }
 
-ul {
-      margin: 0;
-      padding: 0;
-      list-style-type: none;
-      background: #fff;
-      position: relative;
 
+
+ul {
+    margin: 0 auto;
+    padding: 0;
+    list-style-type: none;
+    background: #fff;
+    position: relative;
+    max-width: 1200px;
+}
+
+
+.main-menu::after 
+{
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.main-menu > li
+{
+    float: right;
+}
+
+
+.main-menu > li:nth-child(2)
+{
+    margin-right: 15px;
+}
+
+ul section
+{
+    color: var(--main-color);
+    display: inline-block;
+    margin-left: 15px;
+}
+
+ul section h1
+{
+    font-family: "Pacifico";
+    font-size: 28px;
 }
  
 ul li {
@@ -63,47 +97,91 @@ nav div {
       display: none;
 }
  
-@media(max-width: 768px) {
-      nav div {
-            display: block;
-      }
- 
-      ul {
-            display: none;
-            position: static;
-            background: #fff;
-      }
- 
-      ul li {
-            display: block;
-      }
- 
-      ul ul {
-            position: static;
-            background: #fff;
-      }
+@media(max-width: 768px) 
+{
+    nav div {
+        display: block;
+    }
+
+    nav div::after 
+    {
+    content: "";
+    clear: both;
+    display: table;
+    }
+
+    nav div i 
+    {
+        font-size: 40px;
+    }
+
+    nav div h1 
+    {
+        float: right;
+        color: var(--main-color);
+        font-family: "Pacifico";
+        font-size: 23px;
+        margin-right: 20px;
+    }
+
+    ul {
+        display: none;
+        position: static;
+        background: #fff;
+    }
+
+    ul section 
+    {
+        display: none;
+    }
+
+    .main-menu > li
+    {
+        float: none;
+    }
+
+    .main-menu > li:nth-child(2)
+    {
+        margin-right: 0px;
+    }
+
+    ul li {
+        display: block;
+    }
+
+    ul ul {
+        position: static;
+        background: #fff;
+    }
 }
 
 </style>
 
 <nav>
 
-    <div>
     
+
+    <div>
+        <h1 class="logo-text">Swati</h1>
         <i class="fa fa-bars"></i>
     </div>
 
     <ul class="main-menu">
-        <li><a href="/">Home</a></li>
-        <li><a href="/about">About</a></li>
-        <li><a href="#">Speaking <i class="fas fa-caret-down"></i></a>
+
+        <section>
+            <h1>Swati</h1>
+        </section>
         
+        <li><a href="/contact">Contact</a></li>
+        <li><a href="#">Speaking <i class="fas fa-caret-down"></i></a>
             <ul class="sub-menu">
                 <li><a href="PressKit.docx">Press Kit</a></li>
                 <li><a href="/reviews">Reviews</a></li>
 
             </ul>
         </li>
-        <li><a href="/contact">Contact</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/">Home</a></li>
+        
     </ul>
 </nav>

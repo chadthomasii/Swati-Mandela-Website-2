@@ -46,105 +46,6 @@
 /*=================================================
                     Navigation
 ==================================================*/
-nav
-{
-    position: absolute;
-    top: 0;
-    background-color: #fff;
-    z-index: 7;
-    width: 100%;
-    box-shadow: 0 4px 2px -2px rgba(0,0,0,.2);
-    transition: all 0.3s ease-in-out;
-    
-
-
-}
-.logo
-{
-    float: left;
-    height: 80px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 100px;
-}
-
-.logo h1 a
-{
-    font-family: 'Pacifico';
-    font-size: 2.3em;
-    color: var(--main-color);
-    text-decoration: none;
-}
-
-
-.nav-toggle
-{
-    display: none !important;
-}
-
-
-.nav-menu
-{
-    float: right;
-    height: 80px;
-    color: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 50px;
-    
-}
-
-
-nav li
-{
-    display: inline;
-    padding: 30px 40px;
-    text-align: center;
- 
- 
-   
-}
-
-nav li a
-{
-    text-decoration: none;
-    color: var(--main-color);
-    font-size: 1.2em;
-    cursor: pointer;
-    transition: border 0.2s ease; 
-
-}
-
-/* Sub Menu */
-
-.nav-sub-menu
-{
-    background-color: #fff;
-    box-shadow: 0 4px 12px -2px rgba(0,0,0,.2);
-    top: 80px; 
-    border-top: 2px solid var(--main-color);
-    display: none;
-
-}
-.nav-sub-menu li
-{
-    width: 200px;
-    display: block;
-    padding: 16px 0px;
-}
-.nav-sub-menu li a
-{
-    color: var(--main-color);
-}
-
-
-.nav-toggle-sub:hover .nav-sub-menu
-{
-    display: block;
-} 
-
 
 /*=================================================
                     Landing
@@ -542,16 +443,6 @@ footer a
 {
     /* Navigation */
 
-    .logo
-    {
-        margin-left: 60px;
-    }
-
-    nav li
-    {
-        padding: 0px 30px;
-    }
-
     /* Landing */
     .header-text
     {
@@ -574,17 +465,6 @@ footer a
 {
 
     /* Navigation */
-
-    .logo
-    {
-        margin-left: 40px;
-    }
-
-    nav li
-    {
-        padding: 0px 10px;
-    }
-
     
 
      /* Landing */
@@ -662,54 +542,6 @@ footer a
 @media only screen and (max-width: 700px) 
 {   
     /* Navigation */
-
-    .nav-toggle
-    {
-        display: block !important;
-        font-size: 3em;
-        float: right;
-        margin-right: 40px;
-        margin-top: 20px;
-        cursor: pointer;
-    }
-
-
-    .nav-menu
-    {
-        float:none;
-        margin: 0;
-        width: 100%;
-        flex-direction: column;
-        height: 100%;
-        transition: all 0.3s ease-in-out;
-        padding-top: 40px;
-        border-top: 2px solid var(--main-color);
-        display: none;
-    }
-
-    .nav-container-active
-    {
-        display: flex;
-        transition: all 0.15s ease-out;
-
-    }
-
-    .nav-list
-    {
-        height: 60px;
-        
-    }
-
-    .nav-list a
-    {
-        font-size: 1.6em;
-    }
-
-    .nav-sub-menu
-    {
-        position: relative;
-    }
-
 
     /* Landing */
 
@@ -806,9 +638,6 @@ footer a
 {
     /* Navigation */
 
-
-    
-
     /* Landing */
 
     
@@ -892,16 +721,6 @@ footer a
 @media only screen and (max-width: 360px) 
 {
     /* Navigation */
-
-    nav li
-    {
-        padding: 0px 4px;
-    }
-
-    nav li a
-    {
-        font-size: 1em;
-    }
     
     /* Landing */
 
@@ -923,49 +742,3 @@ footer a
     }
 }
 
-/*DEVICE HEIGHT*/
-@media only screen and (max-height: 780px) 
-{
-    .swati-header
-    {
-        height: 650px;
-    }
-    
-}
-
-@media only screen and (max-height: 700px) 
-{
-    .swati-header
-    {
-        height: 550px;
-    }
-    
-    .header-text
-    {
-        padding: 60px 0px;
-    }
-}
-
-@media only screen and (max-height: 630px) 
-{
-    .swati-header
-    {
-        height: 500px;
-    }
-
-    .header-text
-    {
-        padding: 30px 0px;
-    }
-    
-}
-
-/* Special Devices Lengths */
-
-@media only screen and (max-height: 700px) and (min-width: 1200px)
-{
-    .header-text
-    {
-        padding: 25px 0px;
-    }
-}

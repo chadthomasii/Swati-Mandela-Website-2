@@ -53,14 +53,16 @@ nav
     background-color: #fff;
     z-index: 7;
     width: 100%;
-    height: 80px;
-    box-shadow: 0 2px 8px -2px rgba(0,0,0,.2);
+    box-shadow: 0 4px 2px -2px rgba(0,0,0,.2);
+    transition: all 0.3s ease-in-out;
+    
+
 
 }
 .logo
 {
     float: left;
-    height: 100%;
+    height: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -76,30 +78,32 @@ nav
 }
 
 
-nav i
+.nav-toggle
 {
-
     display: none !important;
 }
 
 
-nav ul
+.nav-menu
 {
     float: right;
-    height: 100%;
+    height: 80px;
     color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-right: 50px;
+    
 }
 
 
 nav li
 {
     display: inline;
-    padding: 0px 40px;
+    padding: 30px 40px;
     text-align: center;
+ 
+ 
    
 }
 
@@ -113,46 +117,34 @@ nav li a
 
 }
 
-nav li a:hover
-{
-    border-top: 3px solid var(--main-color);
-}
+/* Sub Menu */
 
 .nav-sub-menu
 {
     background-color: #fff;
     position: absolute;
-    flex-direction: column;
-    height: 150px;
-    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0 4px 12px -2px rgba(0,0,0,.2);
+    top: 80px; 
+    border-top: 2px solid var(--main-color);
     display: none;
-    width: 150px;
-    box-shadow: 0 2px 8px -2px rgba(0,0,0,.2);
-}
 
-li:hover .nav-sub-menu
+}
+.nav-sub-menu li
 {
-    display: flex;
+    width: 200px;
+    display: block;
+    padding: 16px 0px;
+}
+.nav-sub-menu li a
+{
+    color: var(--main-color);
 }
 
-.nav-container-active
+
+.nav-toggle-sub:hover .nav-sub-menu
 {
     display: block;
-}
-
-.nav-sub-menu li  
-{
-    text-align: center;
-    width: 250px; 
-    padding: 20px 20px;
-}
-
-
-.down 
-{
-    font-size: 10px;
-    display: inline;
-}
+} 
 
 
 /*=================================================
@@ -594,6 +586,8 @@ footer a
         padding: 0px 10px;
     }
 
+    
+
      /* Landing */
 
     .header
@@ -670,61 +664,57 @@ footer a
 {   
     /* Navigation */
 
-    nav
+    .nav-toggle
     {
-        border-bottom: 2px solid var(--main-color);
-    }
-    nav li
-    {
-        padding: 0px 8px;
-    }
-
-    nav ul
-    {
-        position: absolute;
-        width: 100%;
-        height: 250px;
-        background-color: #fff;
-        top: 80px;
-        display: none;
-        transition : all 0.3s ease-in-out;
-    }
-
-    nav i
-    {
-        font-size: 3.5em;
-        display: initial !important;
+        display: block !important;
+        font-size: 3em;
         float: right;
-        color: #424242;
-        margin-top: 12px;
         margin-right: 40px;
+        margin-top: 20px;
         cursor: pointer;
     }
 
-    nav ul li
+
+    .nav-menu
     {
-        display: inline-block;
+        float:none;
+        margin: 0;
         width: 100%;
-        padding: 10px 0px;
+        flex-direction: column;
+        height: 100%;
+        transition: all 0.3s ease-in-out;
+        padding-top: 40px;
+        border-top: 2px solid var(--main-color);
+        display: none;
     }
 
-    nav ul li a 
+    .nav-container-active
     {
-        font-size: 2.2em;
+        display: flex;
+        transition: all 0.15s ease-out;
+
     }
+
+    .nav-list
+    {
+        height: 60px;
+        
+    }
+
+    .nav-list a
+    {
+        font-size: 1.6em;
+    }
+
+    .nav-sub-menu
+    {
+        position: relative;
+    }
+
 
     /* Landing */
 
-    .swati-header
-    {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        margin: auto;
-        width: 499px;
-
-    }
+   
 
     .header-subtext
     {
@@ -817,39 +807,12 @@ footer a
 {
     /* Navigation */
 
-    nav li
-    {
-        padding: 0px 8px;
-    }
 
-    nav li a
-    {
-        font-size: 1.2em;
-    }
-
-    .nav-sub-menu
-    {
-        width: 150px;
-    }
-
-    .nav-sub-menu li
-    {
-        width: 150px;
-    }
+    
 
     /* Landing */
 
-    .swati-header
-    {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        margin: auto;
-        width: 360px;
-        height: 590px;
-
-    }
+    
     .header-text
     {
         font-size: 60px;

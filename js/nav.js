@@ -3,10 +3,15 @@
 
 var navToggle = document.querySelector(".nav-toggle");
 var navContainer = document.querySelector(".nav-menu");
+
 var open = false;
 
 
-navToggle.addEventListener("click",toggleNav);
+
+
+navToggle.addEventListener("click",toggleNav, false);
+
+
 
 //Navigation functionality
 function toggleNav()
@@ -25,3 +30,4 @@ function toggleNav()
         open = false;
     }
 }
+

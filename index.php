@@ -40,7 +40,9 @@
             </div>
 
             <div class="landing-bio-container landing-bio-right">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/Fjd7WLypUOc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <video width="560" height="315" controls>
+                        <source src="vid/swati-speaking.mp4" type="video/mp4">
+                    </video>
             </div>
 
         </div>

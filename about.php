@@ -4,60 +4,6 @@
         <div class="img-container">
         </div>
 
-        <div class="accomplishments"> 
-
-            <ul class="accomplishments-left">
-
-                <li>
-                    - Champion for building bridges between the powerful
-                    and the powerless.
-                </li>
-
-                <li>
-                    - Business developer, public speaker and self-described
-                    serial entrepreneur.
-                </li>
-
-                <li>
-                    - Featured in the Book “200 Women”.
-                </li>
-
-                <li>
-                    - Global Mentor for AIME Founding partner and managing director of Qunu Workforce, South
-                </li>
-
-                <li>
-                    - Africa’s leading consultancy in creating equality in the workforce for those living with disabilities.
-                </li>
-
-            </ul>
-
-            <ul class="accomplishments-right">
-
-                <li>
-                    - Entrepreneur | Fashion Designer
-                </li>
-
-                <li>
-                    - Midrand Graduate Institute
-                </li>
-
-                <li>
-                    - Keynote Speaker at Enactus World Cup Canada, Pine Ridge, Stylecon Newport Beach and Dixie University.
-                </li>
-
-                <li>
-                    - Co-Author of Winnie Mandela’s “491 Days: Prison Number 1323/69.”
-                </li>
-                
-                <li>
-                    - Wrote the foreword for “From Prison to President: The Letters of Nelson Mandela”
-                </li>
-
-            </ul>
-
-        </div>
-
         <div class="biography-text">
 
             <p>
@@ -164,6 +110,60 @@
                 Swati is the daughter of Prince Thumbumuzi Dlamini and Princess Zenani Mandela. 
                 She resides in Johannesburg, South Africa.
             </p>
+
+        </div>
+
+        <div class="accomplishments"> 
+
+            <ul class="accomplishments-left">
+
+                <li>
+                    - Champion for building bridges between the powerful
+                    and the powerless.
+                </li>
+
+                <li>
+                    - Business developer, public speaker and self-described
+                    serial entrepreneur.
+                </li>
+
+                <li>
+                    - Featured in the Book “200 Women”.
+                </li>
+
+                <li>
+                    - Global Mentor for AIME Founding partner and managing director of Qunu Workforce, South
+                </li>
+
+                <li>
+                    - Africa’s leading consultancy in creating equality in the workforce for those living with disabilities.
+                </li>
+
+            </ul>
+
+            <ul class="accomplishments-right">
+
+                <li>
+                    - Entrepreneur | Fashion Designer
+                </li>
+
+                <li>
+                    - Midrand Graduate Institute
+                </li>
+
+                <li>
+                    - Keynote Speaker at Enactus World Cup Canada, Pine Ridge, Stylecon Newport Beach and Dixie University.
+                </li>
+
+                <li>
+                    - Co-Author of Winnie Mandela’s “491 Days: Prison Number 1323/69.”
+                </li>
+                
+                <li>
+                    - Wrote the foreword for “From Prison to President: The Letters of Nelson Mandela”
+                </li>
+
+            </ul>
 
         </div>
 

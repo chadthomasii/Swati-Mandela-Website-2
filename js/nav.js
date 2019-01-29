@@ -12,7 +12,8 @@ $("ul li").click(function() {
 });
 
 $(window).resize(function() {
-    if($(window).width() > 768) {
+    if($(window).width() > 768) 
+    {
           $("ul").removeAttr('style');
     }
 });

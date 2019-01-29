@@ -1,7 +1,7 @@
 
 <style>
 
-nav
+.navigation
 {
     box-shadow: 0 4px 2px -2px rgba(0,0,0,.2);
 
@@ -61,7 +61,7 @@ ul li a {
       display: block;
 }
  
-ul li:hover {
+.navigation ul li:hover {
     background-color: #f3f3f3;
 }
 
@@ -124,7 +124,7 @@ nav div {
         margin-right: 20px;
     }
 
-    ul {
+    .navigation ul {
         display: none;
         position: static;
         background: #fff;
@@ -157,7 +157,7 @@ nav div {
 
 </style>
 
-<nav>
+<nav class="navigation">
 
     
 

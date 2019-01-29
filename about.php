@@ -4,6 +4,10 @@
         <div class="img-container">
         </div>
 
+        <div class="header-text-container header-text-container-main">
+            <h1>About Swati</h1>
+        </div>
+
         <div class="biography-text">
 
             <p>
@@ -111,6 +115,10 @@
                 She resides in Johannesburg, South Africa.
             </p>
 
+        </div>
+
+        <div class="header-text-container header-text-container-main">
+            <h1>Accomplishments</h1>
         </div>
 
         <div class="accomplishments"> 

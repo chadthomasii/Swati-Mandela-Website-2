@@ -4,6 +4,10 @@
         <div class="img-container" style="background: url(../img/swati-speaks.png); background-position: 78% 20%">
         </div>
 
+        <div class="header-text-container header-text-container-white">
+            <h1>About Swati</h1>
+        </div>
+
         <div class="testimonials">
 
            <div class="testimonial-section">

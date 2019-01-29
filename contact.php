@@ -5,6 +5,11 @@
     
 
     <div class="form-container">
+
+        <div class="header-text-container header-text-container-white">
+            <h1>Get In Touch</h1>
+        </div>
+
         <div class="form animated fadeInDown">
             <form action="contact.php" method="post">
 

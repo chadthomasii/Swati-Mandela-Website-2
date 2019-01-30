@@ -44,14 +44,16 @@ ul section
     color: var(--main-color);
     display: inline-block;
     margin-left: 15px;
+    
 }
 
-ul section h1
+ul section img
 {
-    font-family: "Pacifico";
-    font-size: 28px;
-    display: inline-block;
+    height: 33px;
+    margin-top: 8px;
+    cursor:pointer;
 }
+
  
 ul section a
 {
@@ -123,6 +125,7 @@ nav div {
 {
     nav div {
         display: block;
+        border-bottom: solid 2px var(--main-color);
     }
 
     nav div::after 
@@ -143,7 +146,13 @@ nav div {
         color: var(--main-color);
         font-family: "Pacifico";
         font-size: 28px;
-        margin-right: 20px;
+        margin-right: 3px;
+    }
+
+    nav div h1 img
+    {
+        height: 27px;
+        cursor:pointer;
     }
 
     nav div h1 a
@@ -191,7 +200,7 @@ nav div {
     
 
     <div>
-        <h1 class="logo-text">Swati
+        <h1 class="logo-text"><img src="img/logo.png">
             <a class="fab fa-instagram  left-padding"href="https://instagram.com" target="_blank" style="padding-left: 10px"></a>
             <a class="fab fa-twitter "href="https://twitter.com" target="_blank"></a>
             <a class="fab fa-linkedin "href="https://linkedin.com" target="_blank"></a>
@@ -206,8 +215,8 @@ nav div {
     <ul class="main-menu">
 
         <section>
-            <h1>Swati</h1>
-            <a class="fab fa-instagram  "href="https://instagram.com" target="_blank" style="padding-left: 15px"></a>
+            <img src="img/logo.png">
+            <a class="fab fa-instagram  "href="https://instagram.com" target="_blank" style="padding-left: 3px"></a>
             <a class="fab fa-twitter "href="https://twitter.com" target="_blank"></a>
             <a class="fab fa-linkedin "href="https://linkedin.com" target="_blank"></a>
             <a class="fab fa-facebook "href="https://facebook.com" target="_blank"></a>

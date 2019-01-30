@@ -7,7 +7,7 @@
     <div class="form-container">
 
         <div class="header-text-container header-text-container-white">
-            <h1>Get In Touch</h1>
+            <h1 class= "animated fadeIn">Get In Touch</h1>
         </div>
 
         <div class="form animated fadeInDown">

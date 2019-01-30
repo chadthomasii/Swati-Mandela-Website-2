@@ -5,7 +5,7 @@
         </div>
 
         <div class="header-text-container header-text-container-main">
-            <h1>About Swati</h1>
+            <h1 class= "animated fadeIn">About Swati</h1>
         </div>
 
         <div class="biography-text">
@@ -118,7 +118,7 @@
         </div>
 
         <div class="header-text-container header-text-container-main">
-            <h1>Accomplishments</h1>
+            <h1 class= "animated fadeIn">Accomplishments</h1>
         </div>
 
         <div class="accomplishments"> 

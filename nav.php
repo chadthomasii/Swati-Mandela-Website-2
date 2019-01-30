@@ -16,6 +16,8 @@ ul {
     background: #fff;
     position: relative;
     max-width: 1200px;
+    z-index: 10;
+
 }
 
 
@@ -48,8 +50,28 @@ ul section h1
 {
     font-family: "Pacifico";
     font-size: 28px;
+    display: inline-block;
 }
  
+ul section a
+{
+    cursor: pointer;
+    font-size: 1.2em;
+    padding: 0px 2px;
+    text-decoration: none;
+    color: var(--main-color);
+}
+
+ul section a:hover
+{
+    color: #60afde;
+}
+
+.main-menu section:nth-child(4)
+{
+    margin-right: 10px;
+}
+
 ul li {
       display: inline-block;
 }
@@ -120,8 +142,15 @@ nav div {
         float: right;
         color: var(--main-color);
         font-family: "Pacifico";
-        font-size: 23px;
+        font-size: 28px;
         margin-right: 20px;
+    }
+
+    nav div h1 a
+    {
+        text-decoration: none;
+        color: var(--main-color);
+        font-size: 0.8em;
     }
 
     .navigation ul {
@@ -162,14 +191,28 @@ nav div {
     
 
     <div>
-        <h1 class="logo-text">Swati</h1>
+        <h1 class="logo-text">Swati
+            <a class="fab fa-instagram  left-padding"href="https://instagram.com" target="_blank" style="padding-left: 10px"></a>
+            <a class="fab fa-twitter "href="https://twitter.com" target="_blank"></a>
+            <a class="fab fa-linkedin "href="https://linkedin.com" target="_blank"></a>
+            <a class="fab fa-facebook "href="https://facebook.com" target="_blank"></a>
+        </h1>
+        
         <i class="fa fa-bars"></i>
+
+        
     </div>
 
     <ul class="main-menu">
 
         <section>
             <h1>Swati</h1>
+            <a class="fab fa-instagram  "href="https://instagram.com" target="_blank" style="padding-left: 15px"></a>
+            <a class="fab fa-twitter "href="https://twitter.com" target="_blank"></a>
+            <a class="fab fa-linkedin "href="https://linkedin.com" target="_blank"></a>
+            <a class="fab fa-facebook "href="https://facebook.com" target="_blank"></a>
+            
+            
         </section>
         
         <li><a href="/contact">Contact</a></li>

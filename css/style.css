@@ -36,6 +36,8 @@
     font-size: 6em;
     font-family: 'Pacifico' , cursive;
     text-decoration: underline;
+    animation-delay: 0.5s;
+
 }
 
 .header-text-container-main

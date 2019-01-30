@@ -62,11 +62,14 @@ ul section a
     padding: 0px 2px;
     text-decoration: none;
     color: var(--main-color);
+    transition: all 0.1s ease-in-out;
 }
 
 ul section a:hover
 {
     color: #60afde;
+    transform: scale(1.2);
+    
 }
 
 .main-menu section:nth-child(4)
@@ -202,8 +205,8 @@ nav div {
     <div>
         <h1 class="logo-text"><img src="img/logo.png">
             <a class="fab fa-instagram  left-padding"href="https://instagram.com" target="_blank" style="padding-left: 10px"></a>
-            <a class="fab fa-twitter "href="https://twitter.com" target="_blank"></a>
             <a class="fab fa-linkedin "href="https://linkedin.com" target="_blank"></a>
+            <a class="fab fa-twitter "href="https://twitter.com" target="_blank"></a>
             <a class="fab fa-facebook "href="https://facebook.com" target="_blank"></a>
         </h1>
         
@@ -215,10 +218,10 @@ nav div {
     <ul class="main-menu">
 
         <section>
-            <img src="img/logo.png">
+            <a href="/"><img src="img/logo.png"></a>
             <a class="fab fa-instagram  "href="https://instagram.com" target="_blank" style="padding-left: 3px"></a>
-            <a class="fab fa-twitter "href="https://twitter.com" target="_blank"></a>
             <a class="fab fa-linkedin "href="https://linkedin.com" target="_blank"></a>
+            <a class="fab fa-twitter "href="https://twitter.com" target="_blank"></a>
             <a class="fab fa-facebook "href="https://facebook.com" target="_blank"></a>
             
             

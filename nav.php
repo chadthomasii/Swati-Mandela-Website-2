@@ -3,15 +3,17 @@
 
 .navigation
 {
+
+}
+
+nav ul
+{
     box-shadow: 0 4px 2px -2px rgba(0,0,0,.2);
 
 }
 
-
-
 ul {
     margin: 0 auto;
-    padding: 0;
     list-style-type: none;
     background: #fff;
     position: relative;
@@ -49,8 +51,7 @@ ul section
 
 ul section img
 {
-    height: 33px;
-    margin-top: 8px;
+    height: 43px;
     cursor:pointer;
 }
 
@@ -129,6 +130,7 @@ nav div {
     nav div {
         display: block;
         border-bottom: solid 2px var(--main-color);
+        padding-bottom: 0px;
     }
 
     nav div::after 
@@ -141,6 +143,7 @@ nav div {
     nav div i 
     {
         font-size: 40px;
+        margin-top:10px;
     }
 
     nav div h1 
@@ -148,13 +151,13 @@ nav div {
         float: right;
         color: var(--main-color);
         font-family: "Pacifico";
-        font-size: 28px;
+        font-size: 30px;
         margin-right: 3px;
     }
 
     nav div h1 img
     {
-        height: 27px;
+        height: 50px;
         cursor:pointer;
     }
 

@@ -108,13 +108,13 @@
     
     if(($_GET['message']) == "success")
     {
-        $message = 'Your email has been sent!';
+        $message = 'Your message has been sent!';
 	    $messageClass = 'send-message message-success';
     }
 
     if(($_GET['message']) == "failed")
     {
-        $message = 'Your request was not sent, Please try again.';
+        $message = 'Your message was not sent, Please try again.';
         $messageClass = 'send-message message-error';
     }
 ?>

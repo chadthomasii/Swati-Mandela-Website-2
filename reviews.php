@@ -1,7 +1,7 @@
 <?php include_once("head.php");?>
 
 
-        <div class="img-container" style="background: url(../img/swati-speaks.png); background-position: 78% 20%">
+        <div class="img-container" style="background: url(img/swati-speaks.png); background-position: 78% 20%">
         </div>
 
         <div class="header-text-container header-text-container-white">

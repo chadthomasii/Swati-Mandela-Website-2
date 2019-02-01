@@ -269,7 +269,7 @@ ul li i {
         <li><a href="/contact">Contact</a></li>
         <li><a href="#">Speaking<i class="fas fa-caret-down"></i></a>
             <ul class="sub-menu">
-                <li><a href="PressKit.docx">Press Kit</a></li>
+                <li><a href="PressKit.pdf" target="_blank">Media Kit</a></li>
                 <li><a href="/reviews">Reviews</a></li>
 
             </ul>

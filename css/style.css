@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,400,900');
-@import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
 
 :root {
     --main-color: #2274A5; 
@@ -34,7 +34,7 @@
 .header-text-container h1 
 {
     font-size: 6em;
-    font-family: 'Pacifico' , cursive;
+    font-family: 'Oswald' , sans-serif;
     text-decoration: underline;
     animation-delay: 0.5s;
 
@@ -186,7 +186,7 @@
 }
 
 /* Accomplishments */
-.accomplishments ul
+.accomplishments ul 
 {
     list-style-type: none;
 }
@@ -196,6 +196,8 @@
     font-size: 30px;
     margin: 60px 0px;
     padding: 0px 90px;
+    margin-left: 0.6em;
+    text-indent: -0.6em;
 
 }
 

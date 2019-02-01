@@ -73,6 +73,31 @@ ul section a:hover
     
 }
 
+.social
+{
+    float: right;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.social a 
+{
+    text-decoration: none;
+    color: var(--main-color);
+    padding: 15px 3px;
+    font-size: 1.2em;
+    transition: all 0.1s ease-in-out;
+
+
+}
+
+.social a:hover
+{
+    color: #60afde;
+    transform: scale(1.2);
+    
+}
+
 .main-menu section:nth-child(4)
 {
     margin-right: 10px;
@@ -116,7 +141,8 @@ ul li i {
       padding-left: 5px;
 }
  
-nav div {
+.mobile-logo
+{
       background: #fff;
       color: var(--text-color);
       font-size: 24px;
@@ -127,26 +153,27 @@ nav div {
  
 @media(max-width: 768px) 
 {
-    nav div {
+    .mobile-logo 
+    {
         display: block;
         border-bottom: solid 2px var(--main-color);
         padding-bottom: 0px;
     }
 
-    nav div::after 
+    .mobile-logo::after 
     {
     content: "";
     clear: both;
     display: table;
     }
 
-    nav div i 
+    .mobile-logo i 
     {
         font-size: 40px;
         margin-top:10px;
     }
 
-    nav div h1 
+    .mobile-logo h1 
     {
         float: right;
         color: var(--main-color);
@@ -155,13 +182,13 @@ nav div {
         margin-right: 3px;
     }
 
-    nav div h1 img
+    .mobile-logo h1 img
     {
         height: 50px;
         cursor:pointer;
     }
 
-    nav div h1 a
+    .mobile-logo h1 a
     {
         text-decoration: none;
         color: var(--main-color);
@@ -175,6 +202,11 @@ nav div {
     }
 
     ul section 
+    {
+        display: none;
+    }
+
+    .social
     {
         display: none;
     }
@@ -205,7 +237,7 @@ nav div {
 
     
 
-    <div>
+    <div class="mobile-logo">
         <h1 class="logo-text"><img src="img/logo.png">
             <a class="fab fa-instagram  left-padding"href="https://instagram.com" target="_blank" style="padding-left: 10px"></a>
             <a class="fab fa-linkedin "href="https://linkedin.com" target="_blank"></a>
@@ -222,16 +254,20 @@ nav div {
 
         <section>
             <a href="/"><img src="img/logo.png"></a>
+            
+            
+            
+        </section>
+    
+        <div class="social">
             <a class="fab fa-instagram  "href="https://instagram.com" target="_blank" style="padding-left: 3px"></a>
             <a class="fab fa-linkedin "href="https://linkedin.com" target="_blank"></a>
             <a class="fab fa-twitter "href="https://twitter.com" target="_blank"></a>
             <a class="fab fa-facebook "href="https://facebook.com" target="_blank"></a>
-            
-            
-        </section>
-        
+        </div>
+
         <li><a href="/contact">Contact</a></li>
-        <li><a href="#">Speaking <i class="fas fa-caret-down"></i></a>
+        <li><a href="#">Speaking<i class="fas fa-caret-down"></i></a>
             <ul class="sub-menu">
                 <li><a href="PressKit.docx">Press Kit</a></li>
                 <li><a href="/reviews">Reviews</a></li>
@@ -240,6 +276,8 @@ nav div {
         </li>
         <li><a href="/about">About</a></li>
         <li><a href="/">Home</a></li>
+
+        
         
     </ul>
 </nav>

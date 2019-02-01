@@ -2,12 +2,12 @@
 // NAVIGATION
 
 
-$("nav div").click(function() {
+$(".mobile-logo").click(function() {
     $("ul").slideToggle();
     $("ul ul").css("display", "none");
 });
 
-$("ul li").click(function() {
+$(".main-menu li").click(function() {
     $(this).find('ul').slideToggle();
 });
 

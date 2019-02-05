@@ -51,7 +51,8 @@ ul section
 
 ul section img
 {
-    height: 43px;
+    height: 50px;
+    margin-top: 6px;
     cursor:pointer;
 }
 
@@ -84,7 +85,7 @@ ul section a:hover
 {
     text-decoration: none;
     color: var(--main-color);
-    padding: 15px 3px;
+    padding: 22px 3px;
     font-size: 1.2em;
     transition: all 0.1s ease-in-out;
 
@@ -110,7 +111,7 @@ ul li {
 ul li a {
       color: var(--main-color);
       text-decoration: none;
-      padding: 15px;
+      padding: 22px 15px;
       display: block;
 }
  

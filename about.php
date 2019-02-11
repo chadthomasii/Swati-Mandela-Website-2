@@ -2,6 +2,11 @@
 
 
         <div class="img-container">
+            <figure>
+                <img src="img/swati-carosuel-2.jpg"/>
+                <img src="img/swati-center.jpg"/>
+                <img src="img/swati-carosuel-3.jpeg"/>
+            </figure>
         </div>
 
         <div class="header-text-container header-text-container-main">
@@ -152,6 +157,8 @@
         <?php include_once("footer.php");?>
 
         <?php include_once("scripts.php"); ?>
+
+        <script src="js/slideshow.js"></script>
  
     </body>
 

@@ -152,6 +152,8 @@
         <?php include_once("footer.php");?>
 
         <?php include_once("scripts.php"); ?>
+
+        <script src="js/slideshow.js"></script>
  
     </body>
 

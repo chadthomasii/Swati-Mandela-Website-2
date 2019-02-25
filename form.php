@@ -39,7 +39,7 @@
                 else
                 {
                     // Passed
-                    $toEmail = 'chad@chadthomasii.com';
+                    $toEmail = 'info@swatimandelaspeaks.com';
                     $subject = 'Contact Request From '.$name;
                     $body = '
                     
@@ -63,7 +63,7 @@
 
 
                     //Mail to email
-                    if(mail($toEmail, $subject, $body, $headers,'-fchad@chadthomasii.com'))
+                    if(mail($toEmail, $subject, $body, $headers,'-finfo@swatimandelaspeaks.com'))
                     {
                         // Email Sent
                         $message = 'Your request has been sent!';

@@ -666,10 +666,21 @@ footer a
 
     /* About */
 
+    .img-container
+    {
+        background-color: var(--main-color);
+    }
+
+    .img-container figure img
+    {
+        object-fit: contain;
+    }
+
     .img-container img
     {
         width: 400px;
         height: 250px;
+        object-fit: contain;
     }
     .biography-text p
     {
